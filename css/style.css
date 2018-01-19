@@ -1,0 +1,134 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: #fff;
+    background: #2296b2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    max-width: 920px;
+    margin: auto;
+    
+}
+
+.flex-element{
+    color: #fff;
+    background: #2296b2;
+    border-radius: 5px;
+    box-sizing: border-box;
+/*    border: 1px solid #fff;*/
+    padding: 10px;
+
+}
+
+/*
+.flex-element-3{
+    text-shadow: text-shadow: 4px 4px white, 6px 6px #D7CC88;
+}
+*/
+
+.form-element{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.flex-element-1 {
+    width: 50%;
+    text-align: left;
+    
+}
+
+.flex-element-2{
+    width: 50%;
+    text-align: left;
+    
+}
+
+label{
+    font-size: 20px;
+    display: block;
+}
+
+.flex-element-3, .flex-element-4{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.text-input{
+    color: darkblue;
+    border: 1px;
+    font-size: 15px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px darkblue;
+}
+
+input[type="submit"]{
+    
+    box-shadow: 1px 1px 2px 2px darkblue;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.checkbox, .radio{
+            position: relative;
+         }
+         
+         .checkbox input, .radio input{
+             position: absolute;
+             left: -9999em;
+             top: 0;
+         }
+         .checkbox input:checked + span i, .radio input:checked + span i{
+             transform: scale(1);
+             opacity: 1;
+         }
+         
+         .checkbox span, .radio span {
+             display: inline-block;
+             width: 12px;
+             height: 12px;
+             border: 1px solid #00a4ff;
+             border-radius: 3px;
+             color: #006fad;
+             vertical-align: top;
+             margin-top: 1px;
+             margin-right: 4px;
+         }
+         
+         .radio span{
+             border-radius: 100%;
+             position: relative;
+         }
+         
+         .checkbox span i{
+             position: relative;
+             left: 0px;
+             top: -4px;
+             
+             transform: scale(1.5);
+             opacity: 0;
+             
+             transition: all 0.25s ease;
+         }
+         
+         .radio span i{
+             position: absolute;
+             left: 2px;
+             top: 2px;
+             right: 2px;
+             bottom: 2px;
+             
+             border-radius: 100%;
+             background: #006fad;
+             
+             transform: scale(2.5);
+             opacity: 0;
+             
+             transition: all 0.25s ease;
+         }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Формы</title>
+        <script src="https://use.fontawesome.com/129c100fbd.js"></script>        
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        
+          
+        <form class="flex-container" action="https://weblaboratory.in.ua/mail/" method="post">
+              <div class="flex-elevemt flex-element-3">
+                  <h2>Заполните, пожалуйста, форму опроса посетителей нашего сайта</h2> 
+              </div>
+               <div class="flex-elevemt flex-element-1">
+                   <div class="form-element">
+                        <label for="myNameForm1">Введите ваше имя</label>
+                        <input class="text-input" id="myNameForm1" name="myName" value="" placeholder="Ваше имя"> 
+                   </div><br>
+
+                   <div class="form-element">
+                        <label for="LastNameForm1">Введите вашу фамилию</label>
+                        <input class="text-input" id="LastNameForm1" name="myLastName" value="" placeholder="Ваша фамилия"><br> 
+                   </div>
+                   <div class="form-element">
+                       Ваш пол<br>
+                       <label class="radio"><input type="radio" name="pol" value="Мужской"><span><i></i></span> Мужской</label>
+                       <label class="radio"><input type="radio" name="pol" value="Женский"><span><i></i></span>Женский</label>
+                   </div> 
+                   <div class="form-element">
+                       Дата рождения<br>
+                       <input class="text-input" type="date" name="data" value="">
+                   </div> 
+                   <div class="form-element">
+                       Телефон
+                       <input class="text-input" type="tel" name="Tel" value="">
+                   </div>
+                   <div class="form-element">
+                       <select class="text-input" name="season">
+                            <option value="" >Любимое время года</option>
+                            <option value="Зима">Зима</option>
+                            <option value="Весна">Весна</option>
+                            <option value="Лето">Лето</option>
+                            <option value="Осень">Осень</option>
+                       </select>
+                   </div>
+                   
+               </div>
+                           
+               <div class="flex-elevemt flex-element-2">
+                      <div class="form-element">
+                           Ваш любимый цвет
+                           <input type="color" name="color" value="">
+                      </div>
+                      <div class="form-element">
+                            Ваши увлечения<br>
+                           <label class="checkbox"><input type="checkbox" name="hobby1" value="Спорт"><span><i class="fa fa-check" aria-hidden="true"></i></span>
+                           Спорт</label>
+                           <label class="checkbox"><input type="checkbox" name="hobby2" value="Путешествия"><span><i class="fa fa-check" aria-hidden="true"></i></span>Путешествия</label>
+                           <label class="checkbox"><input type="checkbox" name="hobby3" value="Музыка"><span><i class="fa fa-check" aria-hidden="true"></i></span>Музыка</label>
+                           <label class="checkbox"><input type="checkbox" name="hobby4" value="Кино"><span><i class="fa fa-check" aria-hidden="true"></i></span>Кино</label>
+                      </div>
+                      <div class="form-element">
+                            <label for="EmailForm1">Введите ваш Email</label>
+                            <input class="text-input" id="EmailForm1" type="email" name="email" value="">
+                      </div>
+                      <div class="form-element">
+                          Пароль<br>
+                          <input class="text-input" type="password" name="password" value="">
+                      </div>
+                      <div class="form-element">
+                          В каком месяце вы планируете следующий отпуск?
+                          <input class="text-input" type="month" name="month" value="">
+                      </div>
+                </div>
+                <div class="flex-element flex-element-4">
+                       <div class="form-element">
+                           <input type="submit">
+                       </div>
+                </div>
+                                       
+                         
+        </form> 
+             
+        
+    </body> 
+</html>
